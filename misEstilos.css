@@ -13,6 +13,7 @@ section{
     background-image: url("images/bg-pattern.png");
     background-position: left top;
     background-repeat: no-repeat;
+    display: flex;
 }
 
 @font-face{
@@ -38,6 +39,13 @@ section{
 
 /* Extra small */
 @media only screen and (max-width: 600px) {
+    section{
+        padding-top: 20px;
+        background-image: url("images/bg-pattern.png");
+        background-position: center top;
+        background-repeat: no-repeat;
+    }
+
     /*PARTE 1*/
     .img-fondo{
         background-image: url("images/pattern-circles.png");
@@ -107,7 +115,7 @@ section{
         margin:30px 0 20px 0;
         -webkit-appearance: none;
         -moz-appearance: none;
-        background: linear-gradient(90deg, hsl(44, 90%, 70%)50%, silver 50%);
+        background: linear-gradient(90deg, hsl(44, 100%, 61%)50%, silver 50%);
         height: 10px;
         width: 100%;
         border-radius: 5px;
@@ -127,7 +135,7 @@ section{
         background-repeat: no-repeat;
         background-position: center;
         cursor: -webkit-grab;
-        box-shadow: 0px 5px 20px hsla(0, 0%, 13%, 0.842);
+        box-shadow: 0px 5px 20px hsla(46, 27%, 37%, 0.842);
     }
 
     /*PARTE 4*/
@@ -194,7 +202,7 @@ section{
 
     .descuento{
         background-color: hsl(174, 46%, 88%);
-        color: hsl(174, 80%, 28%);
+        color: hsl(174, 81%, 20%);
         border-radius: 10px;
     }
 
@@ -299,7 +307,7 @@ section{
         margin:30px 0 20px 0;
         -webkit-appearance: none;
         -moz-appearance: none;
-        background: linear-gradient(90deg, hsl(44, 90%, 70%)50%, silver 50%);
+        background: linear-gradient(90deg, hsl(44, 100%, 61%)50%, silver 50%);
         height: 10px;
         width: 100%;
         border-radius: 5px;
@@ -319,7 +327,7 @@ section{
         background-repeat: no-repeat;
         background-position: center;
         cursor: -webkit-grab;
-        box-shadow: 0px 5px 20px hsla(0, 0%, 13%, 0.842);
+        box-shadow: 0px 5px 20px hsla(46, 27%, 37%, 0.842);
     }
 
     /*PARTE 4*/
@@ -385,7 +393,7 @@ section{
 
     .descuento{
         background-color: hsl(174, 46%, 88%);
-        color: hsl(174, 80%, 28%);
+        color: hsl(174, 81%, 20%);
         border-radius: 10px;
     }
 
@@ -482,7 +490,7 @@ section{
         margin:30px 0 20px 0;
         -webkit-appearance: none;
         -moz-appearance: none;
-        background: linear-gradient(90deg, hsl(44, 90%, 70%)50%, silver 50%);
+        background: linear-gradient(90deg, hsl(44, 100%, 61%)50%, silver 50%);
         height: 10px;
         width: 100%;
         border-radius: 5px;
@@ -502,7 +510,7 @@ section{
         background-repeat: no-repeat;
         background-position: center;
         cursor: -webkit-grab;
-        box-shadow: 0px 5px 20px hsla(0, 0%, 13%, 0.842);
+        box-shadow: 0px 5px 20px hsla(46, 27%, 37%, 0.842);
     }
 
     /*PARTE 4*/
@@ -563,7 +571,7 @@ section{
 
     .descuento{
         background-color: hsl(174, 46%, 88%);
-        color: hsl(174, 80%, 28%);
+        color: hsl(174, 81%, 20%);
         border-radius: 10px;
     }
 
