@@ -8,13 +8,6 @@ body{
     font-family: 'Manrope', sans-serif;
 }
 
-section{
-    padding-top: 20px;
-    background-image: url("images/bg-pattern.png");
-    background-position: left top;
-    background-repeat: no-repeat;
-    display: flex;
-}
 
 @font-face{
     font-family: vcr;
@@ -239,6 +232,13 @@ section{
 
 /* Small */
 @media only screen and (min-width: 600px) {
+    section{
+        padding-top: 20px;
+        background-image: url("images/bg-pattern.png");
+        background-position: center top;
+        background-repeat: no-repeat;
+    }
+    
     /*PARTE 1*/
     .img-fondo{
         background-image: url("images/pattern-circles.png");
@@ -430,6 +430,15 @@ section{
 
 /* Medium */
 @media only screen and (min-width: 768px) {
+    section{
+        padding-top: 20px;
+        background-image: url("images/bg-pattern.png");
+        background-position: left top;
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: flex;
+    }
+
     /*PARTE 1*/
     .img-fondo{
         background-image: url("images/pattern-circles.png");
